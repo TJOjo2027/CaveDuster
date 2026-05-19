@@ -7,10 +7,6 @@ class Cell:
         self.isMine = isMine
         self.weight = weight
         self.isCovered = isCovered
-    
-    # Setter for the Cell Weight
-    def setCellWeight(self, weight):
-        self.weight = weight
 
     # Getter for the Cell Weight
     def getCellWeight(self):
