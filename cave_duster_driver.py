@@ -15,7 +15,7 @@ GRID_WIDTH = NUM_COLS * CELL_SIZE
 WINDOW_WIDTH = GRID_WIDTH + SIDEBAR_WIDTH
 WINDOW_HEIGHT = HUD_HEIGHT + NUM_ROWS * CELL_SIZE
 FPS = 60
-MUSIC_FOLDER = r"C:\Users\tojo\Desktop\Cave_Duster\CaveDuster\game_music"
+MUSIC_FOLDER = os.path.join(os.path.dirname(__file__), "game_music")
 
 # COLORS
 COLOR_BG = (30,  30,  30)
